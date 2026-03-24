@@ -1,62 +1,216 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Satya Indian Restaurant</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      background: #fff8f0;
-    }
-    header {
-      background: #b22222;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    h2 {
-      border-bottom: 2px solid #b22222;
-      padding-bottom: 5px;
-    }
-    .container {
-      padding: 20px;
-    }
-    .item {
-      display: flex;
-      justify-content: space-between;
-      margin: 5px 0;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Satya Indian Restaurant</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8f0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #8b0000, #c0392b);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  border-left: 6px solid #c0392b;
+  padding-left: 10px;
+  color: #8b0000;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.price {
+  font-weight: bold;
+  color: #c0392b;
+}
+
+footer {
+  background: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>Satya Indian Restaurant & Bar</h1>
-  <p>Auténtica comida india</p>
+  <h1>🍛 Satya Indian Restaurant & Bar</h1>
+  <p>Auténtica cocina india en Madrid</p>
 </header>
 
 <div class="container">
 
-<h2>Entrantes</h2>
-<div class="item"><span>Punjabi Samosa</span><span>6.00€</span></div>
-<div class="item"><span>Onion Bhaji</span><span>5.50€</span></div>
-<div class="item"><span>Momos</span><span>6.00€</span></div>
-
-<h2>Platos de Pollo</h2>
-<div class="item"><span>Butter Chicken</span><span>13.95€</span></div>
-<div class="item"><span>Chicken Tikka Masala</span><span>13.95€</span></div>
-
-<h2>Vegetariano</h2>
-<div class="item"><span>Palak Paneer</span><span>11.50€</span></div>
-<div class="item"><span>Chana Masala</span><span>11.50€</span></div>
-
-<h2>Postres</h2>
-<div class="item"><span>Gulab Jamun</span><span>5.00€</span></div>
-<div class="item"><span>Kulfi</span><span>5.00€</span></div>
-
+<div class="section">
+<h2>ENTRANTES</h2>
+<div class="item"><span>Punjabi Samosa</span><span class="price">5.00€</span></div>
+<div class="item"><span>Keema Samosa</span><span class="price">5.50€</span></div>
+<div class="item"><span>Mix Sabji Pakora</span><span class="price">5.00€</span></div>
+<div class="item"><span>Onion Bhaji</span><span class="price">4.50€</span></div>
+<div class="item"><span>Desi Aloo Tikki</span><span class="price">4.50€</span></div>
+<div class="item"><span>Papadam</span><span class="price">0.60€</span></div>
+<div class="item"><span>Cheese Roll</span><span class="price">5.95€</span></div>
+<div class="item"><span>Momo carne</span><span class="price">6.00€</span></div>
+<div class="item"><span>Momo verdura</span><span class="price">5.00€</span></div>
+<div class="item"><span>Prawn Puri</span><span class="price">7.00€</span></div>
 </div>
+
+<div class="section">
+<h2>PLATOS DE HORNO TANDOOR</h2>
+<div class="item"><span>Chicken Tandoori</span><span class="price">10.95€</span></div>
+<div class="item"><span>Lamb Seekh Kebab</span><span class="price">11.95€</span></div>
+<div class="item"><span>Chicken Seekh Kebab</span><span class="price">10.95€</span></div>
+<div class="item"><span>Chicken Tikka</span><span class="price">9.95€</span></div>
+<div class="item"><span>Mix Grill</span><span class="price">19.95€</span></div>
+<div class="item"><span>Paneer Tikka</span><span class="price">12.00€</span></div>
+<div class="item"><span>Dehakte Jhinga</span><span class="price">16.95€</span></div>
+</div>
+
+<div class="section">
+<h2>PLATOS DE POLLO</h2>
+<div class="item"><span>Chicken Curry</span><span class="price">11.95€</span></div>
+<div class="item"><span>Lahori Chicken</span><span class="price">11.95€</span></div>
+<div class="item"><span>Methi Chicken</span><span class="price">11.95€</span></div>
+<div class="item"><span>Butter Chicken</span><span class="price">12.95€</span></div>
+<div class="item"><span>Chicken Tikka Masala</span><span class="price">12.95€</span></div>
+<div class="item"><span>Chicken Korma</span><span class="price">12.95€</span></div>
+<div class="item"><span>Chicken Balti</span><span class="price">12.95€</span></div>
+<div class="item"><span>Chicken Karahi</span><span class="price">12.90€</span></div>
+<div class="item"><span>Chicken Saag</span><span class="price">11.95€</span></div>
+<div class="item"><span>Coconut Chicken</span><span class="price">13.00€</span></div>
+<div class="item"><span>Mango Chicken</span><span class="price">12.95€</span></div>
+<div class="item"><span>Chicken Vindaloo</span><span class="price">12.50€</span></div>
+<div class="item"><span>Chicken Chettinad</span><span class="price">12.50€</span></div>
+<div class="item"><span>Chicken Madrasi</span><span class="price">12.50€</span></div>
+<div class="item"><span>Chicken Phall</span><span class="price">12.50€</span></div>
+</div>
+
+<div class="section">
+<h2>PLATOS DE CORDERO</h2>
+<div class="item"><span>Lamb Korma</span><span class="price">15.00€</span></div>
+<div class="item"><span>Lamb Tikka Masala</span><span class="price">16.00€</span></div>
+<div class="item"><span>Lamb Balti</span><span class="price">15.00€</span></div>
+<div class="item"><span>Lamb Curry</span><span class="price">12.95€</span></div>
+<div class="item"><span>Lamb Banjara</span><span class="price">12.95€</span></div>
+<div class="item"><span>Lamb Rogan Josh</span><span class="price">14.50€</span></div>
+<div class="item"><span>Lamb Karahi</span><span class="price">15.00€</span></div>
+<div class="item"><span>Lamb Saag</span><span class="price">14.50€</span></div>
+<div class="item"><span>Lamb Madras</span><span class="price">14.50€</span></div>
+<div class="item"><span>Lamb Vindaloo</span><span class="price">14.50€</span></div>
+<div class="item"><span>Lamb Phall</span><span class="price">14.50€</span></div>
+</div>
+
+<div class="section">
+<h2>PLATOS DE MARISCOS</h2>
+<div class="item"><span>Fish Curry</span><span class="price">15.50€</span></div>
+<div class="item"><span>Langostino Curry</span><span class="price">14.50€</span></div>
+<div class="item"><span>Langostino Tikka Masala</span><span class="price">15.00€</span></div>
+</div>
+  
+<div class="section">
+<h2>PLATOS CON VERDURAS</h2>
+<div class="item"><span>Aloo Gobi</span><span class="price">9.95€</span></div>
+<div class="item"><span>Palak Paneer</span><span class="price">10.50€</span></div>
+<div class="item"><span>Vegetable Kofta</span><span class="price">11.50€</span></div>
+<div class="item"><span>Malai Kofta</span><span class="price">11.95€</span></div>
+<div class="item"><span>Karahi Paneer</span><span class="price">11.95€</span></div>
+<div class="item"><span>Chana Masala</span><span class="price">10.50€</span></div>
+<div class="item"><span>Daal Tarka</span><span class="price">9.95€</span></div>
+<div class="item"><span>Dal Makhani</span><span class="price">10.50€</span></div>
+<div class="item"><span>Baigan Achaari</span><span class="price">9.95€</span></div>
+<div class="item"><span>Shahi Paneer</span><span class="price">12.00€</span></div>
+<div class="item"><span>Mix Vegetable Curry</span><span class="price">9.95€</span></div>
+<div class="item"><span>Saag Aloo</span><span class="price">9.95€</span></div>
+<div class="item"><span>Aloo Matar</span><span class="price">9.95€</span></div>
+<div class="item"><span>Matar Paneer</span><span class="price">9.95€</span></div>
+<div class="item"><span>Baigan Bharta</span><span class="price">10.95€</span></div>
+<div class="item"><span>Paneer Butter Masala</span><span class="price">12.50€</span></div>
+</div>
+
+<div class="section">
+<h2>ARROZ & BIRYANI</h2>
+<div class="item"><span>Chicken Biryani</span><span class="price">13.50€</span></div>
+<div class="item"><span>Lamb Biryani</span><span class="price">14.50€</span></div>
+<div class="item"><span>Vegetable Biryani</span><span class="price">11.95€</span></div>
+<div class="item"><span>Basmati Rice</span><span class="price">5.00€</span></div>
+<div class="item"><span>Pulao Rice</span><span class="price">5.50€</span></div>
+<div class="item"><span>Peas Carrot Rice</span><span class="price">6.95€</span></div>
+<div class="item"><span>Sweet Rice</span><span class="price">11.95€</span></div>
+</div>
+
+<div class="section">
+<h2>PAN/NAAN</h2>
+<div class="item"><span>Naan</span><span class="price">2.50€</span></div>
+<div class="item"><span>Garlic Naan</span><span class="price">3.50€</span></div>
+<div class="item"><span>Cheese Naan</span><span class="price">3.50€</span></div>
+<div class="item"><span>Butter Naan</span><span class="price">3.00€</span></div>
+<div class="item"><span>Onion Naan</span><span class="price">3.50€</span></div>
+<div class="item"><span>Cheese Garlic Naan</span><span class="price">4.50€</span></div>
+<div class="item"><span>Peshwari Naan</span><span class="price">4.50€</span></div>
+<div class="item"><span>Fulka Roti</span><span class="price">2.00€</span></div>
+<div class="item"><span>Tandoori Roti</span><span class="price">2.50€</span></div>
+<div class="item"><span>Aloo Paratha</span><span class="price">4.50€</span></div>
+</div>
+
+<div class="section">
+<h2>POSTRES</h2>
+<div class="item"><span>Gajar Ka Halwa</span><span class="price">4.95€</span></div>
+<div class="item"><span>Mango Lassi</span><span class="price">3.95€</span></div>
+<div class="item"><span>Mango Kulfi</span><span class="price">4.00€</span></div>
+<div class="item"><span>Pistacho Kulfi</span><span class="price">4.00€</span></div>
+<div class="item"><span>Gulab Jamun</span><span class="price">4.00€</span></div>
+</div>
+
+<div class="section">
+<h2>ENSALADAS</h2>
+<div class="item"><span>HARA BHARA SALAD</span><span class="price">3.95€</span></div>
+<div class="item"><span>NAWABI RAITA</span><span class="price">5€</span></div>
+</div>
+
+  <div class="section">
+<h2>CERVEZAS DE INDIA</h2>
+<div class="item"><span>CERVEZA COBRA</span><span class="price">3.50€</span></div>
+<div class="item"><span>CERVEZA KINGFISHER</span><span class="price">3.50€</span></div>
+</div>
+  
+</div>
+
+<footer>
+📍 Calle Eras 10, Villaviciosa de Odón | 📞 602 530 341 / 911 47 93 87
+</footer>
 
 </body>
 </html>
